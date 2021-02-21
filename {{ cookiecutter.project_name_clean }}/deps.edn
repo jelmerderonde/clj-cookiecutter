@@ -1,7 +1,6 @@
 {:paths ["resources" "src"]
 
- :deps {org.clojure/clojure                {:mvn/version "1.10.1"}}
+ :deps {org.clojure/clojure                {:mvn/version "1.10.2"}}
 
- :aliases {:dev      {:extra-paths ["dev"]
-                      :extra-deps {mvxcvi/puget                 {:mvn/version "1.1.2"}}}}}
+ :aliases {:dev      {:extra-paths ["dev"]}}}
 
